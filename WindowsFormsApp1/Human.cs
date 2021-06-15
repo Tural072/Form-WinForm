@@ -13,6 +13,5 @@ namespace WindowsFormsApp1
         public string Email { get; set; }
         public string Phone { get; set; }
         public DateTime Birthday { get; set; }
-
     }
 }
