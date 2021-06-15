@@ -68,7 +68,7 @@ namespace WindowsFormsApp1
             this.userGroup.Margin = new System.Windows.Forms.Padding(4);
             this.userGroup.Name = "userGroup";
             this.userGroup.Padding = new System.Windows.Forms.Padding(0);
-            this.userGroup.Size = new System.Drawing.Size(460, 385);
+            this.userGroup.Size = new System.Drawing.Size(460, 301);
             this.userGroup.TabIndex = 0;
             this.userGroup.TabStop = false;
             this.userGroup.Text = "Anket";
