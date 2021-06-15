@@ -17,7 +17,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-        bool IsClicked=false;
+        bool IsClicked = false;
         private void Form1_Load(object sender, EventArgs e)
         {
             List.DisplayMember = "Name";
@@ -35,14 +35,14 @@ namespace WindowsFormsApp1
         {
             if (!IsClicked)
             {
-                addBtn.Location = new Point(351, 218);
-                changeBtn.Location = new Point(351, 254);
+                addBtn.Location = new Point(200, 200);
+                changeBtn.Location = new Point(200, 230);
                 IsClicked = true;
             }
             else
             {
-                changeBtn.Location = new Point(351, 218);
-                addBtn.Location = new Point(351, 254);
+                changeBtn.Location = new Point(200, 200);
+                addBtn.Location = new Point(200, 230);
                 IsClicked = false;
             }
             List.DisplayMember = "Name";
@@ -103,24 +103,40 @@ namespace WindowsFormsApp1
         {
             if (IsClicked)
             {
-                changeBtn.Location = new Point(351, 218);
-                addBtn.Location = new Point(351, 254);
+                changeBtn.Location = new Point(200, 200);
+                addBtn.Location = new Point(200, 230);
                 IsClicked = false;
             }
             else
             {
-                addBtn.Location = new Point(351, 218);
-                changeBtn.Location = new Point(351, 254);
+                addBtn.Location = new Point(200, 200);
+                changeBtn.Location = new Point(200, 230);
                 IsClicked = true;
             }
             foreach (var item in List.SelectedItems)
             {
-                var human = item as Human;
-                human.Name = nameTxtbx.Text;
-                human.Surname = surenameTxtbx.Text;
-                human.Birthday = dateTimePicker1.Value;
-                human.Email = emailTxtbx.Text;
-                human.Phone = phoneTxtbx.Text;
+                try
+                {
+                    var human = item as Human;
+                    if (human != null)
+                    {
+                        List.Items.Remove(human);
+                        human.Name = nameTxtbx.Text;
+                        human.Surname = surenameTxtbx.Text;
+                        human.Birthday = dateTimePicker1.Value;
+                        human.Email = emailTxtbx.Text;
+                        human.Phone = phoneTxtbx.Text;
+                        List.Items.Add(human);
+                        break;
+                    }
+                }
+                catch (Exception)
+                {
+
+                }
+                
+
+
             }
         }
     }

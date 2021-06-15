@@ -67,8 +67,8 @@ namespace WindowsFormsApp1
             this.userGroup.Location = new System.Drawing.Point(16, 15);
             this.userGroup.Margin = new System.Windows.Forms.Padding(4);
             this.userGroup.Name = "userGroup";
-            this.userGroup.Padding = new System.Windows.Forms.Padding(4);
-            this.userGroup.Size = new System.Drawing.Size(682, 385);
+            this.userGroup.Padding = new System.Windows.Forms.Padding(0);
+            this.userGroup.Size = new System.Drawing.Size(460, 385);
             this.userGroup.TabIndex = 0;
             this.userGroup.TabStop = false;
             this.userGroup.Text = "Anket";
@@ -76,7 +76,7 @@ namespace WindowsFormsApp1
             // addBtn
             // 
             this.addBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(218)))), ((int)(((byte)(196)))));
-            this.addBtn.Location = new System.Drawing.Point(351, 254);
+            this.addBtn.Location = new System.Drawing.Point(317, 257);
             this.addBtn.Margin = new System.Windows.Forms.Padding(4);
             this.addBtn.Name = "addBtn";
             this.addBtn.Size = new System.Drawing.Size(100, 28);
@@ -89,7 +89,7 @@ namespace WindowsFormsApp1
             // 
             this.birthdayLbl.AutoSize = true;
             this.birthdayLbl.BackColor = System.Drawing.Color.Transparent;
-            this.birthdayLbl.Location = new System.Drawing.Point(20, 177);
+            this.birthdayLbl.Location = new System.Drawing.Point(16, 173);
             this.birthdayLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.birthdayLbl.Name = "birthdayLbl";
             this.birthdayLbl.Size = new System.Drawing.Size(53, 17);
@@ -99,7 +99,7 @@ namespace WindowsFormsApp1
             // changeBtn
             // 
             this.changeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(218)))), ((int)(((byte)(196)))));
-            this.changeBtn.Location = new System.Drawing.Point(351, 218);
+            this.changeBtn.Location = new System.Drawing.Point(317, 221);
             this.changeBtn.Margin = new System.Windows.Forms.Padding(4);
             this.changeBtn.Name = "changeBtn";
             this.changeBtn.Size = new System.Drawing.Size(100, 28);
@@ -112,7 +112,7 @@ namespace WindowsFormsApp1
             // 
             this.nameLbl.AutoSize = true;
             this.nameLbl.BackColor = System.Drawing.Color.Transparent;
-            this.nameLbl.Location = new System.Drawing.Point(20, 49);
+            this.nameLbl.Location = new System.Drawing.Point(16, 45);
             this.nameLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nameLbl.Name = "nameLbl";
             this.nameLbl.Size = new System.Drawing.Size(25, 17);
@@ -124,7 +124,7 @@ namespace WindowsFormsApp1
             this.phoneLbl.AutoSize = true;
             this.phoneLbl.BackColor = System.Drawing.Color.Transparent;
             this.phoneLbl.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.phoneLbl.Location = new System.Drawing.Point(20, 145);
+            this.phoneLbl.Location = new System.Drawing.Point(16, 141);
             this.phoneLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.phoneLbl.Name = "phoneLbl";
             this.phoneLbl.Size = new System.Drawing.Size(28, 17);
@@ -144,7 +144,7 @@ namespace WindowsFormsApp1
             // 
             this.emailLbl.AutoSize = true;
             this.emailLbl.BackColor = System.Drawing.Color.Transparent;
-            this.emailLbl.Location = new System.Drawing.Point(20, 108);
+            this.emailLbl.Location = new System.Drawing.Point(16, 104);
             this.emailLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.emailLbl.Name = "emailLbl";
             this.emailLbl.Size = new System.Drawing.Size(42, 17);
@@ -164,7 +164,7 @@ namespace WindowsFormsApp1
             // 
             this.surenameLbl.AutoSize = true;
             this.surenameLbl.BackColor = System.Drawing.Color.Transparent;
-            this.surenameLbl.Location = new System.Drawing.Point(20, 81);
+            this.surenameLbl.Location = new System.Drawing.Point(16, 77);
             this.surenameLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.surenameLbl.Name = "surenameLbl";
             this.surenameLbl.Size = new System.Drawing.Size(48, 17);
